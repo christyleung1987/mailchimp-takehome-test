@@ -38,7 +38,7 @@ function App() {
   useEffect(() => {
     fetch("http://localhost:3001/getComments")
       .then((response) => response.json())
-      .then((data) => setComments(data));
+      .then((data) => setComments(data.sort((item) => item.id).reverse()));
   }, []);
 
   return (
