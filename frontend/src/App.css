@@ -1,0 +1,87 @@
+.App {
+  display: flex;
+}
+
+.App form {
+  display: grid;
+}
+
+.App form input {
+  margin-bottom: 1rem;
+}
+
+.App form textarea {
+  margin-bottom: 1rem;
+  height: 5rem;
+}
+
+.App form button {
+  width: 5rem;
+  background: #fff;
+  border: 1px solid #192e4c;
+  color: #192e4c;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App article {
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background: #192e4c;
+  opacity: 0.8;
+  color: white;
+}
+
+.main-message {
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #fff;
+}
+
+.form-container {
+  position: fixed;
+  width: 25%;
+}
+
+.feed-container {
+  width: 73%;
+  position: absolute;
+  right: 0;
+}
+
+.name-and-created {
+  font-size: 10px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
